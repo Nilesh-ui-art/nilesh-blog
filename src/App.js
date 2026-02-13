@@ -226,7 +226,7 @@ const CommentsSection = ({ blogId, darkMode }) => {
         <h4 className="font-bold dark:text-white">Leave a Comment</h4>
         <input
           type="text"
-          placeholder="Your Name"
+          placeholder="Nilesh Nerlekar"
           value={newComment.author}
           onChange={(e) => setNewComment({...newComment, author: e.target.value})}
           className="w-full px-4 py-3 border-2 border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-xl focus:ring-2 focus:ring-blue-500 transition-all outline-none"
@@ -1109,7 +1109,7 @@ ${blog.content}`;
         <div className="space-y-5">
           <input 
             type="text" 
-            placeholder="Your Name" 
+            placeholder="Nilesh Nerlekar" 
             value={contactData.name}
             onChange={(e) => setContactData({...contactData, name: e.target.value})}
             className="w-full px-5 py-4 rounded-xl border-2 border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none text-lg" 
@@ -1254,7 +1254,7 @@ ${blog.content}`;
 
       <footer className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-8 text-center">
-          <p className="text-gray-300 text-lg">© 2025 Your Name. All rights reserved.</p>
+          <p className="text-gray-300 text-lg">© 2025 Nilesh Nerlekar. All rights reserved.</p>
           <p className="text-gray-400 mt-2">Built with passion for technology and innovation</p>
         </div>
       </footer>
