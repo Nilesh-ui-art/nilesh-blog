@@ -1,7 +1,7 @@
 {
   "name": "my-blog",
   "version": "0.1.0",
-  "homepage": "https://Nilesh-ui-art.github.io/nilesh-blog",
+  "homepage": "https://nileshnerlekar.com",
   "private": true,
   "dependencies": {
     "lucide-react": "^0.263.1",
